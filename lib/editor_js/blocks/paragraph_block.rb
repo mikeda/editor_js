@@ -29,7 +29,7 @@ module EditorJs
             css_name("__#{alignment}")
           ].join(' ')
         end
-        content_tag(:div, class: class_name_str) { data['text'].html_safe }
+        content_tag(:p, class: class_name_str) { data['text'].html_safe }
       end
 
       def safe_tags

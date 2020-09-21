@@ -36,6 +36,7 @@ module EditorJs
         {
           'b' => nil,
           'i' => nil,
+          'span' => ['class'],
           'u' => ['class'],
           'del' => ['class'],
           'a' => ['href'],
